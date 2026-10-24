@@ -1,0 +1,12 @@
+# Terraria's own music and sound effects (~414 MB) are NOT in this repo:
+# they are copyrighted by Re-Logic. The game falls back to its built-in
+# procedural audio when assets/ is missing, so it runs fine without them.
+# Drop your own assets/bgm and assets/sfx in locally if you want real audio.
+assets/
+
+# pasted screenshots that live in the project root
+/*.png
+/*.jpg
+
+# local scratch
+*.log
