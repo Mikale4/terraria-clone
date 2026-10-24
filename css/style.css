@@ -15,3 +15,7 @@ html, body {
   cursor: none;
   image-rendering: pixelated;
 }
+
+/* touch devices: the canvas owns every gesture (no scroll, no pinch-zoom, no tap highlight) */
+html.touch, html.touch body { position: fixed; inset: 0; overscroll-behavior: none; }
+html.touch #game { touch-action: none; cursor: default; -webkit-tap-highlight-color: transparent; }

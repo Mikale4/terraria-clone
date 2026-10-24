@@ -3,7 +3,20 @@
 A from-scratch, single-player Terraria-style sandbox that runs in the browser.
 No build step, no external assets — every sprite, sound and background is generated in code.
 
-## Run it
+## Play it
+
+**<https://mikale4.github.io/terraria-clone/>** - runs in any browser, phone included.
+
+On a phone it switches to touch controls automatically: a left/right/down pad and a jump pad for your
+thumbs, a star button that swings whatever you are holding at the last place you touched, and BAG / MAP /
+HOOK / HEAL buttons for the keys a phone cannot reach. Tap the world to mine, place and attack; drag to
+keep mining; **press and hold** for the right-click interaction (doors, chests, talking to NPCs). The
+on-screen pads hide whenever a panel is open so they never cover the inventory, the map or a dialog, and
+the camera zooms out to show ~26 tiles across. Force it on or off with `?touch=1` / `?touch=0`.
+
+Worlds are saved in that browser's own storage, so your phone and your PC keep separate worlds.
+
+## Run it locally
 
 Double-click **`Play Terraria.bat`** in this folder: it serves the folder on <http://localhost:8765> and opens
 your browser. Keep that console window open while you play; closing it stops the server. (It needs Python on
